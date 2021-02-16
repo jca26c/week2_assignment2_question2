@@ -26,13 +26,13 @@ require([
       // * time - the time of the event
 
         const template = {
-          title: "Earthquake Info",
-          content: "Magnitude {mag} {type} hit {place} on {time}."
+          title: "Crime Info",
+          content: "Crime"
         };
 
         const csvLayer = new CSVLayer({
           url: url,
-          copyright: "USGS Earthquakes",
+          copyright: "St. Louis Crime",
           popupTemplate: template
         });
 
